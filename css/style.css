@@ -40,12 +40,6 @@ main {
     margin-right: auto;
 }
 
-main .card {
-    height: calc(100% / 5 - 20px);
-
-    background-color: #b5ddff;
-    border-radius: 20px;
-} 
 
 main .col {
     display: flex;
@@ -53,6 +47,13 @@ main .col {
     gap: 20px;
     padding: 2em;
 }
+
+main .card {
+    height: calc(100% / 5 - 20px);
+
+    background-color: #b5ddff;
+    border-radius: 20px;
+} 
 
 main .text {
     height: 50%;
@@ -91,3 +92,23 @@ main .phone-img {
 main .phone-img img {
     width: 100%;
 }
+
+main .card .symbol {
+    padding: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1284fd;
+}
+
+main .card .symbol i {
+    font-size: 5em;
+    margin-bottom: 0.3em;
+}
+
+main .card .center {
+    text-align: center;
+    padding-top: 0.3em;
+}
+
