@@ -213,3 +213,45 @@ main .purple-card .purple-card-text {
     text-align: center;
     margin-top: 1em;
 }
+
+/* /testimonials */
+/* working with us */
+.purple-section #title {
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.col .white-card {
+    height: calc(100% / 6 - 20px);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.col .white-card h2 {
+    color: #9792e4;
+    padding: 1em 0 0 0.4em;
+    font-size: 3em;
+}
+
+.col .white-card h3 {
+    color: #9792e4;
+    padding: 1em;
+} 
+
+.col .white-card p,#pad {
+    padding: 0 0 1em 1em;
+}
+
+.col .white-card .purple-btn {
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* /working with us */
+
+
