@@ -315,3 +315,48 @@ footer .foot-text,.foot-text-2 {
 }
 
 /* /footer */
+/* responsive tablet */
+
+@media screen and (min-width: 768px) {
+    main .col {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .big {
+        width: calc(100% / 3 * 2 - 20px / 3 * 1)
+    }
+    .small {
+        width: calc(100% / 3 - 20px)
+    }
+    .raw2 {
+        width: calc(100% / 3 - 20px / 3 * 2);
+    }
+    .testimonial .purple-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .testimonial .purple-card .purple-card-img {
+        width: 30%;
+    } 
+    .testimonial .purple-card .purple-card-text {
+        width: 70%;
+    }
+    .white-card {
+        width: calc(100% / 2 - 20px / 2);
+    }
+    main .about-us {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .img-text-about-us {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    .about-us-text {
+        width: 60%;
+    }
+    
+}   
