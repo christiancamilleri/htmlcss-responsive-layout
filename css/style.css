@@ -33,3 +33,61 @@ nav .list i {
     font-size: 2em;
     color: white;
 }
+
+main {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .card {
+    height: calc(100% / 5 - 20px);
+
+    background-color: #b5ddff;
+    border-radius: 20px;
+} 
+
+main .col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2em;
+}
+
+main .text {
+    height: 50%;
+    padding: 1.5em;
+}
+
+main .text h1 {
+    font-size: 1.5em;
+    color: #1284fd;
+}
+
+main .text p {
+    padding: 1em 0;
+}
+
+main .text .bottone {
+    display: flex;
+    justify-content: center;
+}
+
+main .text .btn {
+    padding: 10px 40px;
+    color: white;
+    background-color: #1284fd;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+main .phone-img {
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+main .phone-img img {
+    width: 100%;
+}
