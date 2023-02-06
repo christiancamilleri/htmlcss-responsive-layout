@@ -34,13 +34,26 @@ nav .list i {
     color: white;
 }
 
+/* /navbar */
+
+.btn {
+    padding: 10px 40px;
+    color: white;
+    background-color: #1284fd;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+/* main */
+
 main {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-
+/* col */
 main .col {
     display: flex;
     flex-direction: column;
@@ -74,14 +87,6 @@ main .text .bottone {
     justify-content: center;
 }
 
-main .text .btn {
-    padding: 10px 40px;
-    color: white;
-    background-color: #1284fd;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-}
 
 main .phone-img {
     height: 50%;
@@ -112,3 +117,58 @@ main .card .center {
     padding-top: 0.3em;
 }
 
+/* /col */
+
+main .purple-section {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #9792e4;
+}
+
+main .purple-section .first-block,.second-block {
+    height: calc(100% / 2);
+    padding: 1.5em;
+}
+
+main .purple-section .first-block .purple-img {
+    height: 50%;
+    margin-bottom: 1em;
+}
+
+main .purple-section .first-block .purple-img img {
+    width: 100%;
+}
+
+main .purple-section .first-block .purple-text {
+    color: white;
+}
+
+main .purple-section .first-block .purple-text h2 {
+    margin: 1.5em 0;
+}
+
+main .purple-section .second-block {
+    background-color: white;
+    margin: 1.5em;
+    border-radius: 50px;
+    margin-bottom: 3.5em;
+}
+
+main .purple-section .second-block img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+main .purple-section .second-block .second-block-text {
+    text-align: center;
+}
+
+main .purple-section .second-block .second-block-text p {
+    padding: 1em 0;
+}
+
+main .purple-btn {
+    background-color: #9792e4;
+    cursor: pointer;
+}
