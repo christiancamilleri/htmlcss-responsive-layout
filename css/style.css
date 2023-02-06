@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #1284fd;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    margin-left: 1em;
+}
+
+nav .list {
+    display: flex;
+    align-items: center;
+}
+
+nav .list i {
+    margin-right: 1em;
+    
+    font-size: 2em;
+    color: white;
+}
