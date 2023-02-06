@@ -286,3 +286,13 @@ main .about-us .text-2 .purple-btn {
     margin-top: 1.5em;
 }
 /* /about us */
+/* purple section */
+main .all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+/* /purple section */
+
