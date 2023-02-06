@@ -296,3 +296,22 @@ main .all{
 
 /* /purple section */
 
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+
+    color: white;
+    background-color: #333333;
+}
+
+footer .foot-text,.foot-text-2 {
+    padding: 2em ;
+}
+
+/* /footer */
