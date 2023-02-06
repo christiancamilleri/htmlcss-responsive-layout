@@ -128,7 +128,7 @@ main .purple-section {
 
 main .purple-section .first-block,.second-block {
     height: calc(100% / 2);
-    padding: 1.5em;
+    padding: 2em;
 }
 
 main .purple-section .first-block .purple-img {
@@ -171,4 +171,45 @@ main .purple-section .second-block .second-block-text p {
 main .purple-btn {
     background-color: #9792e4;
     cursor: pointer;
+}
+/* /purple section */
+/* testimonials */
+main .text-testimonial {
+    padding: 2em;
+    text-align: center;
+}
+
+main .text-testimonial h2 {
+    margin: 1em 0;
+    color: #9792e4;
+}
+
+main .col-purple-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2em;
+}
+
+main .purple-card {
+    padding: 1.5em 0;
+    height: calc(100% / 3);
+    background-color: #9792e4;
+    border-radius: 50px;
+}
+
+main .purple-card-img {
+    height: 50%;
+}
+
+main .purple-card-img img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 0 2em;
+}
+
+main .purple-card .purple-card-text {
+    color: white;
+    text-align: center;
+    margin-top: 1em;
 }
