@@ -57,6 +57,7 @@ main {
 main .col {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     gap: 20px;
     padding: 2em;
 }
@@ -91,7 +92,7 @@ main .text .bottone {
 main .phone-img {
     height: 50%;
     display: flex;
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 
 main .phone-img img {
@@ -103,7 +104,8 @@ main .card .symbol {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    /* align-items: center; */
     color: #1284fd;
 }
 
@@ -317,7 +319,7 @@ footer .foot-text,.foot-text-2 {
 /* /footer */
 /* responsive tablet */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     main .col {
         flex-direction: row;
         flex-wrap: wrap;
@@ -360,17 +362,30 @@ footer .foot-text,.foot-text-2 {
     }   
 }  
 
-@media screen and (min-width: 992px) {
-    .col {
-        width: 1000px;
+@media screen and (min-width: 769px) {
+    main .col {
+        max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     
     .card {
         display: flex;
         flex-direction: row;
     }
+    
+    .big {
+        width: calc(100% / 3 * 2 - 20px / 3 * 1)
+    }
+    .small {
+        width: calc(100% / 3 - 20px)
+    }
+    .raw2 {
+        width: calc(100% / 3 - 20px / 3 * 2);
+    }
+   
     main .container {
         display: flex;
         flex-direction: row;
